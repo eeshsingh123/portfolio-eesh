@@ -36,7 +36,11 @@ export const TECH = [
     technologies: ["HTML", "Javascript", "CSS", "Tailwind", "React Js", "Next Js 14", "Django"]
   },
   {
-    framework: "Databse",
+    framework: "Artificial Intelligence",
+    technologies: ["Llamaindex", "Langchain", "CrewAI", "Vector Databases", "Fine-tuning", "Agents"]
+  },
+  {
+    framework: "Database",
     technologies: ["MySQL", "PostgresSQL", "MongoDB", "DocumentDB", "Convex", "Cloud DBs", "Redis", "AWS S3", "CMS"]
   },
   {

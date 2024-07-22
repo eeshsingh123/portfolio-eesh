@@ -10,18 +10,18 @@ const Footer = () => {
       <div className="flex gap-6 p-4">
         <Link href="https://www.linkedin.com/in/eesh-singh-49139310b/">
           <div>
-            <FaLinkedin className="w-8 h-8 cursor-pointer" color="blue" />
+            <FaLinkedin className="w-8 h-8 cursor-pointer" />
           </div>
         </Link>
 
         <Link href="https://github.com/eeshsingh123">
           <div>
-            <FaGithub className="w-8 h-8 cursor-pointer" color="black" />
+            <FaGithub className="w-8 h-8 cursor-pointer"/>
           </div>
         </Link>
         <Link href="https://twitter.com/eeshsingh007">
           <div>
-            <FaXTwitter className="w-8 h-8 cursor-pointer" color="black" />
+            <FaXTwitter className="w-8 h-8 cursor-pointer" />
           </div>
         </Link>
       </div>

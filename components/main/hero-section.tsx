@@ -3,22 +3,35 @@ import { PROJECTS, TECH } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
+      <div className="font-semibold text-2xl pb-2">
+        What am I currently working on?
+      </div>
+      <div className="pb-8 max-w-4xl text-center">
+        I am currently working on a project that leverages the{" "}
+        <Link href="https://www.llamaindex.ai/" className="font-semibold">
+          Llamaindex{" "}
+        </Link>
+        framework and{" "}
+        <Link
+          href="https://docs.llamaindex.ai/en/stable/use_cases/agents/"
+          className="font-semibold"
+        >
+          Agents
+        </Link>{" "}
+        to build a Retrieval Augumented Generation pipeline on thoughts in order
+        to get a detailed insight of our day to day life.
+      </div>
       <div className="font-semibold text-2xl">My Projects</div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6">
         {PROJECTS.map((el, idx) => (
           <div key={idx}>
             <Link href={el.url}>
-              <Card className="max-w-xl max-h-fit hover:bg-blue-100 shadow-sm hover:shadow-lg bg-slate-50">
+              <Card className="max-w-xl max-h-fit hover:shadow-lg">
                 <CardHeader>
                   <CardTitle>{el.name}</CardTitle>
                 </CardHeader>
@@ -41,17 +54,22 @@ const Hero = () => {
 
       {/* Technologies */}
       <div className="font-semibold text-2xl pt-4">Technologies I know</div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-6">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-4 pt-6">
         {TECH.map((el, idx) => (
           <div key={idx}>
-            <Card className="max-w-xl max-h-fit shadow-sm hover:shadow-lg bg-slate-50">
+            <Card className="max-w-xl max-h-fit shadow-sm hover:shadow-lg">
               <CardHeader>
                 <CardTitle>{el.framework}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   {el.technologies.map((tech, i) => (
-                    <div key={i} className="p-2 bg-yellow-200/50 hover:bg-yellow-300 rounded-lg font-mono font-semibold">{tech}</div>
+                    <div
+                      key={i}
+                      className="p-2 rounded-lg font-mono font-semibold border dark:border-yellow-50 border-yellow-400"
+                    >
+                      {tech}
+                    </div>
                   ))}
                 </div>
               </CardContent>
