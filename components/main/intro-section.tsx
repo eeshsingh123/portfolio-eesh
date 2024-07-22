@@ -13,7 +13,7 @@ const Introduction = () => {
       />
       <div className="pt-2 font-bold text-xl">Eesh Singh</div>
       <div className="py-1 text-center">
-        Hi, I build applications that solves problems using Artificial
+        Hi, I build applications that solve problems using Artificial
         Intelligence. Currently working as a{" "}
         <span className="text-emerald-600 font-semibold">
           Product Lead at Deloitte
