@@ -17,8 +17,10 @@ const Introduction = () => {
         Intelligence. Currently working as a{" "}
         <span className="text-emerald-600 font-semibold">
           Product Lead at Deloitte
-        </span>. Former Co-Lead for an Award-Winning Data Science and Analytics team at{" "}
-        <span className="text-sky-600 font-semibold">Locobuzz</span>.
+        </span>
+      </div>
+      <div className="py-1 text-center">
+        I have hands-on experience working with AI frameworks like LangChain to build AI agents from scratch. I've developed chatbots that efficiently process large-scale enterprise data for financial use cases, ensuring accurate and reliable responses. My work focuses on creating intelligent systems that streamline data ingestion and enhance decision-making.
       </div>
     </div>
   );

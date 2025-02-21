@@ -10,9 +10,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Eesh Singh Portfolio",
+  title: "Eesh Singh | Lead Software Engineer Portfolio",
   description:
-    "This is a portfolio of Eesh Singh who is a Lead Software Engineer at Deloitte and an application developer. Eesh works on building AI applications and Artificial Intelligence use-cases using frameworks like llamaindex, langchain. Eesh has experience in Data Science, Data analytics, Machine learning, Deep learning, Agentic Retrieval Augumented Generation (RAG) pipelines",
+    "Explore the portfolio of Eesh Singh, Lead Software Engineer at Deloitte and expert application developer. Specializing in AI applications, machine learning, deep learning, and Agentic RAG pipelines using frameworks like LLaMA Index and LangChain. Skilled in data science, data analytics, and innovative Artificial Intelligence solutions.",
 };
 
 export default function RootLayout({

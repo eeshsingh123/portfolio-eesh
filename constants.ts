@@ -25,26 +25,53 @@ export const PROJECTS = [
   },
 ];
 
-
 export const TECH = [
   {
     framework: "Backend",
-    technologies: ["Python", "FastAPI", "Flask", "Redis", "Node Js", "Next Js 14"]
+    technologies: ["Python", "FastAPI", "Flask", "Redis", "Node.Js", "Next.Js"],
   },
   {
     framework: "Frontend",
-    technologies: ["HTML", "Javascript", "CSS", "Tailwind", "React Js", "Next Js 14", "Django"]
+    technologies: [
+      "HTML",
+      "Javascript",
+      "CSS",
+      "Tailwind",
+      "React Js",
+      "Next.Js",
+      "Django",
+    ],
   },
   {
     framework: "Artificial Intelligence",
-    technologies: ["Llamaindex", "Langchain", "CrewAI", "Vector Databases", "Fine-tuning", "Agents"]
+    technologies: [
+      "Langchain",
+      "LangGraph",
+      "Retrieval Augumented Generation (RAG)",
+      "Vector Databases & Embeddings",
+      "CrewAI",
+      "Agents",
+    ],
   },
   {
-    framework: "Database",
-    technologies: ["MySQL", "PostgresSQL", "MongoDB", "DocumentDB", "Convex", "Cloud DBs", "Redis", "AWS S3", "CMS"]
+    framework: "Database & Storage",
+    technologies: [
+      "SQL",
+      "MongoDB",
+      "Cloud DBs",
+      "Redis",
+      "AWS DynamoDB",
+      "AWS S3",
+    ],
   },
   {
     framework: "Devops",
-    technologies: ["Docker", "Serverless Edge Frameworks", "Git", "AWS", "Azure"]
-  }
-]
+    technologies: [
+      "Docker",
+      "Vercel (Serverless Edge Frameworks)",
+      "Coolify",
+      "Github Actions",
+      "AWS",
+    ],
+  },
+];
