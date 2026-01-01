@@ -1,13 +1,17 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
 
 import { ThemeProvider } from "@/components/theme-provider";
 
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: "Eesh Singh | Lead Software Engineer Portfolio",
@@ -22,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={robotoMono.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
