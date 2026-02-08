@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -16,7 +17,9 @@ const Introduction = () => {
         Lead Software Engineer 2 at Deloitte
       </div>
       <div className="pt-4 text-sm leading-relaxed max-w-lg">
-        I build AI-powered solutions with experience in agents, workflows, and AI-assisted financial reporting. Framework agnostic with expertise in production AI evaluation and edge deployment.
+        I build AI Agents for financial services. I have an expertise in building agents, workflows, financial documents processing and LLM evaluation for auto-generated analytical reports.
+        I also, have a keen interest in building on-device edge applications for local LLM inference.
+        Frameworks that I have worked with but not limited to include LangChain, LangGraph, AWS Bedrock, LLaMA Index, etc.
       </div>
       <br />
       <div className="pt-2 text-sm leading-relaxed max-w-lg text-muted-foreground">
