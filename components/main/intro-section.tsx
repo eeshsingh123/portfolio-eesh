@@ -34,7 +34,7 @@ const Introduction = () => {
       </div>
       
       <div className="pt-4 text-sm text-muted-foreground italic">
-        This portfolio will be enriched with projects as we progress through 2026.
+        {/* Placeholder text removed */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { ModeToggle } from "@/components/dark-mode";
 import Footer from "@/components/main/footer-section";
 import Introduction from "@/components/main/intro-section";
+import ProjectsSection from "@/components/main/projects-section";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <ModeToggle />
       </div>
       <Introduction />
+      <ProjectsSection />
       <Footer />
     </main>
   );
